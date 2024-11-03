@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futuristic Restaurant Menu</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #141414;
+            color: #fff;
+        }
+        
+        header {
+            background-color: #1f1f1f;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            font-size: 2rem;
+            margin: 0;
+        }
+        nav {
+            background-color: #1f1f1f;
+            display: flex;
+            justify-content: center;
+            padding: 1rem 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1rem;
+            padding: 0.5rem 1rem;
+            transition: background 0.3s ease;
+        }
+        nav a:hover {
+            background: #ff6f61;
+            border-radius: 5px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 2rem 0;
+        }
+        .menu-section {
+            margin: 3rem 0;
+        }
+        .menu-section h2 {
+            text-align: center;
+            margin-bottom: 1rem;
+            color: #fff;
+            font-size: 2rem;
+            border-bottom: 2px solid #ff6f61;
+            display: inline-block;
+            padding-bottom: 0.5rem;
+        }
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #1f1f1f;
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+        .menu-item:hover {
+            transform: scale(1.05);
+        }
+        .menu-item img {
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            margin-right: 1.5rem;
+        }
+        .menu-item-info {
+            flex: 1;
+        }
+        .menu-item-info h3 {
+            margin: 0 0 0.5rem 0;
+            color: #ff6f61;
+        }
+        .menu-item-info p {
+            margin: 0;
+            color: #bbb;
+        }
+        .menu-item-price {
+            font-size: 1.3rem;
+            color: #ff6f61;
+        }
+        .about-us, .contact-us {
+            background: #1f1f1f;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            margin-top: 2rem;
+        }
+        .about-us h2, .contact-us h2 {
+            text-align: center;
+            color: #fff;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #ff6f61;
+            display: inline-block;
+            padding-bottom: 0.5rem;
+        }
+        .about-us p, .contact-us p {
+            text-align: center;
+            color: #bbb;
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin: 0 auto;
+            max-width: 600px;
+        }
+        .contact-us form {
+            max-width: 600px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-us input, .contact-us textarea {
+            margin-bottom: 1rem;
+            padding: 0.8rem;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        .contact-us button {
+            padding: 0.8rem;
+            border: none;
+            border-radius: 5px;
+            background: #ff6f61;
+            color: #fff;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        .contact-us button:hover {
+            background: #ff3d2e;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Restaurant</h1>
+        <p>Explore our delicious menu and order through the chatbot</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about-us">About Us</a>
+        <a href="#contact-us">Contact Us</a>
+    </nav>
+    <div class="container" id="home">
+        <section class="menu-section">
+            <h2>Appetizers</h2>
+            <div class="menu-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToSEzEWh4HwbS0gwfhaLJvNaCZgfksIDCcCA&s" alt="Bruschetta">
+                <div class="menu-item-info">
+                    <h3>Bruschetta</h3>
+                    <p>Grilled bread garnished with garlic and olive oil, topped with tomatoes and basil.</p>
+                </div>
+                <div class="menu-item-price">$8.99</div>
+            </div>
+            <div class="menu-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnvttdbcqZkcuhk7zS9pfNKd0n_operDySkQ&s" alt="Stuffed Mushrooms">
+                <div class="menu-item-info">
+                    <h3>Stuffed Mushrooms</h3>
+                    <p>Mushrooms filled with a savory mix of cheeses and herbs.</p>
+                </div>
+                <div class="menu-item-price">$9.99</div>
+            </div>
+            <div class="menu-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhOCclXHBpRiyj_d5R9FcDx_gGwnar_50Eug&s" alt="Spring Rolls">
+                <div class="menu-item-info">
+                    <h3>Spring Rolls</h3>
+                    <p>Crispy rolls stuffed with fresh vegetables and served with a tangy dipping sauce.</p>
+                </div>
+                <div class="menu-item-price">$7.99</div>
+            </div>
+        </section>
+        <section class="menu-section">
+            <h2>Main Courses</h2>
+            <div class="menu-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCqwlWKU4PRsrTluwheT2tl4PDSN86H_nbsw&s" alt="Grilled Salmon">
+                <div class="menu-item-info">
+                    <h3>Grilled Salmon</h3>
+                    <p>Fresh salmon fillet grilled to perfection, served with vegetables.</p>
+                </div>
+                <div class="menu-item-price">$19.99</div>
+            </div>
+            <div class="menu-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT33Q8m4dVP85YUmt7lEox74zBodeNENJZKQA&s" alt="Steak">
+                <div class="menu-item-info">
+                    <h3>Steak</h3>
+                    <p>Juicy rib-eye steak cooked to your liking, served with mashed potatoes.</p>
+                </div>
+                <div class="menu-item-price">$24.99</div>
+            </div>
+            <div class="menu-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4d1RRz5dOb9McEJaXC4WZ3Cxe7Sv4ugytpQ&s" alt="Vegan Buddha Bowl">
+                <div class="menu-item-info">
+                    <h3>Vegan Buddha Bowl</h3>
+                    <p>Quinoa, chickpeas, avocado, and roasted vegetables drizzled with tahini sauce.</p>
+                </div>
+                <div class="menu-item-price">$14.99</div>
+            </div>
+        </section>
+        <section class="menu-section">
+            <h2>Desserts</h2>
+            <div class="menu-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUGKwQDjozqfBdEeqimoL-Doeafyafp9RC6g&s" alt="Cheesecake">
+                <div class="menu-item-info">
+                    <h3>Cheesecake</h3>
+                    <p>Creamy cheesecake with a graham cracker crust, topped with fresh Blueberries.</p>
+                </div>
+                <div class="menu-item-price">$6.99</div>
+            </div>
+            <div class="menu-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBMfQNH_Ts8FP2D8-7_kL8rv-jPsq_AAyNIw&s" alt="Chocolate Lava Cake">
+                <div class="menu-item-info">
+                    <h3>Chocolate Lava Cake</h3>
+                    <p>Warm chocolate cake with a gooey molten center, served with vanilla ice cream.</p>
+                </div>
+                <div class="menu-item-price">$7.99</div>
+            </div>
+            <div class="menu-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3jOGX-hHTU7HEWD6hUvoaIWyjdipcNeX5Vw&s" alt="Tiramisu">
+                <div class="menu-item-info">
+                    <h3>Tiramisu</h3>
+                    <p>Classic Italian dessert with layers of coffee-soaked ladyfingers and mascarpone cheese.</p>
+                </div>
+                <div class="menu-item-price">$8.99</div>
+            </div>
+        </section>
+    </div>
+    <div class="container" id="about-us">
+        <section class="about-us">
+            <h2>About Us</h2>
+            <p>Welcome to our Restaurant where culinary delights meet modern elegance. Our team of expert chefs uses the freshest ingredients to craft dishes that are as visually stunning as they are delicious.<br> Join us for an unforgettable dining experience.<BR>Through our Chatbot experience a true satisfaction system.</p>
+        </section>
+    </div>
+    <div class="container" id="contact-us">
+        <section class="contact-us">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+    <script type="text/javascript">
+        (function(d, m){
+            var kommunicateSettings = 
+                {"appId":"11307c83ff0a8a4a0eabe74486f767ba7","popupWidget":true,"automaticChatOpenOnNavigation":true};
+            var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+            s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+            var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
+            window.kommunicate = m; m._globals = kommunicateSettings;
+        })(document, window.kommunicate || {});
+    /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
+    </script>
+</body>
+</html>
