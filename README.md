@@ -28,7 +28,7 @@ The system uses a modular, serverless architecture with these core AWS services:
 - **Amazon SNS**: Sends real-time order status notifications.
 - **Amazon CloudWatch**: Monitors system performance and reliability.
 
-![System Architecture Diagram](path/to/system-architecture-image.png)
+![System Architecture Diagram](system_architecture.png)
 
 ---
 
