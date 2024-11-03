@@ -42,43 +42,62 @@ The system uses a modular, serverless architecture with these core AWS services:
 ---
 
 ## Installation
+
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/your-repo-name/your-project.git
-2. **Set Up AWS Services**:
--Amazon Lex for natural language processing and chatbot functionality.
--AWS Lambda for serverless backend computing.
--Amazon Polly to convert text responses to voice.
--Amazon Rekognition for image analysis and recommendations.
--Amazon SNS to send notifications and order status updates.
--Amazon CloudWatch for monitoring system performance and logs.
-3. **Deploy Backend: Configure Lambda functions and API Gateway endpoints**.
--Configure AWS Lambda functions and API Gateway endpoints as needed.
--Set up Amazon EC2 instances if required for backend hosting.
--Configure permissions and policies for each AWS service to allow secure interactions.
-4. **Enable WhatsApp Integration: Connect with Twilio for multichannel support**.
--Use Twilio to integrate WhatsApp as a communication channel.
--Set up a Twilio account and connect it to the AWS backend for message handling.
+   ```
 
+2. **Set Up AWS Services**:
+   - **Amazon Lex** for natural language processing and chatbot functionality.
+   - **AWS Lambda** for serverless backend computing.
+   - **Amazon Polly** to convert text responses to voice.
+   - **Amazon Rekognition** for image analysis and recommendations.
+   - **Amazon SNS** to send notifications and order status updates.
+   - **Amazon CloudWatch** for monitoring system performance and logs.
+
+3. **Deploy Backend**:
+   - Configure AWS Lambda functions and API Gateway endpoints as needed.
+   - Set up Amazon EC2 instances if required for backend hosting.
+   - Configure permissions and policies for each AWS service to allow secure interactions.
+
+4. **Enable WhatsApp Integration**:
+   - Use Twilio to integrate WhatsApp as a communication channel.
+   - Set up a Twilio account and connect it to the AWS backend for message handling.
 
 ---
 
 ## Future Enhancements
--*Enhanced AI Capabilities:* Improve natural language processing to handle complex queries.
--*Voice-Only Ordering:* Integrate with Alexa for hands-free voice interactions.
--*Predictive Recommendations:* Use AI to suggest items based on customer order history.
--*Extended Integrations:* Add support for other platforms like Facebook Messenger.
+
+- **Enhanced AI Capabilities**: Improve natural language processing to handle complex queries.
+- **Voice-Only Ordering**: Integrate with Alexa for hands-free voice interactions.
+- **Predictive Recommendations**: Use AI to suggest items based on customer order history.
+- **Extended Integrations**: Add support for other platforms like Facebook Messenger.
 
 ---
+
 ## Contributing
+
 We welcome contributions to this project! If you would like to contribute:
 
-Fork this repository.
-Create a new feature branch (git checkout -b feature/your-feature-name).
-Commit your changes (git commit -m 'Add your feature').
-Push to the branch (git push origin feature/your-feature-name).
-Submit a pull request for review.
+1. **Fork this repository**.
+2. **Create a new feature branch**:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. **Commit your changes**:
+   ```bash
+   git commit -m 'Add your feature'
+   ```
+4. **Push to the branch**:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+5. **Submit a pull request** for review.
 
 ---
+
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
