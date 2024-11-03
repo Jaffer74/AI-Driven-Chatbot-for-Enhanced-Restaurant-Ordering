@@ -7,7 +7,7 @@ An AI-powered, AWS-driven chatbot designed to transform the restaurant ordering 
 ## Overview
 In today’s restaurant industry, traditional ordering methods struggle to meet customer demands for speed, convenience, and personalization. Our solution addresses this gap using Amazon Web Services (AWS) and AI technologies, providing a flexible, scalable platform that automates order-taking, offers recommendations, and engages customers through multiple channels.
 
----
+
 
 ## Key Features
 - **Conversational AI**: Amazon Lex enables natural, intuitive conversations with customers for easy order placement and support.
@@ -75,6 +75,8 @@ The system uses a modular, serverless architecture with these core AWS services:
 - **Extended Integrations**: Add support for other platforms like Facebook Messenger.
 
 ---
+## Documentation
+For detailed methodology, results, and analysis, see the [IEEE Report](report.pdf).
 
 ## Contributing
 
