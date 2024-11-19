@@ -76,7 +76,7 @@ The system uses a modular, serverless architecture with these core AWS services:
 
 ---
 ## Documentation
-For detailed methodology, results, and analysis, see the [IEEE Report]("Seamless Service Evolution Enhancing Customer Satisfaction Using AWS-Driven AI Chatbots for Restaurant Ordering (1).pdf").
+For detailed methodology, results, and analysis, see the [IEEE Report](Seamless Service Evolution Enhancing Customer Satisfaction Using AWS-Driven AI Chatbots for Restaurant Ordering (1).pdf)
 
 ## Contributing
 
