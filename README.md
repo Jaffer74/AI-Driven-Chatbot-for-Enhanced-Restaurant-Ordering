@@ -28,7 +28,7 @@ The system uses a modular, serverless architecture with these core AWS services:
 - **Amazon SNS**: Sends real-time order status notifications.
 - **Amazon CloudWatch**: Monitors system performance and reliability.
 
-![System Architecture Diagram](system_architecture.png)
+![System Architecture Diagram](https://github.com/Jaffer74/AI-Driven-Chatbot-for-Enhanced-Restaurant-Ordering/blob/main/Seamless%20Service%20Evolution%20Enhancing%20Customer%20Satisfaction%20Using%20AWS-Driven%20AI%20Chatbots%20for%20Restaurant%20Ordering%20(1).pdf)
 
 ---
 
@@ -101,5 +101,5 @@ We welcome contributions to this project! If you would like to contribute:
 
 ## License
 
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE.md) file for details.
 
